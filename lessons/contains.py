@@ -4,7 +4,7 @@
 def main() -> None:
     """Entrypoint of program"""
     names: list[str] = ["Kris", "Kaki"]
-    print(contains("Kevin", names))
+    print(contains("Kris", names))
 
 
 def contains(needle: str, haystack: list[str]) -> bool:
