@@ -7,11 +7,11 @@ __author__ = "730402537"
 num: int = int(input("Enter an int: "))
 if num % 2 == 0:
     if num % 7 == 0:
-        print ("TAR HEELS")
+        print("TAR HEELS")
     else:
-        print ("TAR")
+        print("TAR")
 else:
     if num % 7 == 0:
-        print ("HEELS")
+        print("HEELS")
     else:
-        print ("CAROLINA")
+        print("CAROLINA")
